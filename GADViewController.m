@@ -76,12 +76,17 @@
     {
         case 0:
             cell.textLabel.text = [NSString stringWithFormat:@"I am in section 0"];
+            cell.backgroundColor = [UIColor redColor];
             break;
         case 1:
             cell.textLabel.text = @"another section";
+            cell.backgroundColor = [UIColor blueColor];
             break;
         case 2:
             cell.textLabel.text = [NSString stringWithFormat:@"cell %d",[indexPath row]];
+            cell.backgroundColor = [UIColor yellowColor];
+            cell.textLabel.shadowColor = [UIColor purpleColor];
+            cell.textLabel.shadowOffset = CGSizeMake(2,3);
             break;
     }
     
