@@ -14,13 +14,13 @@
 		0A3376571816200B00E1CF04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3376561816200B00E1CF04 /* main.m */; };
 		0A33765B1816200B00E1CF04 /* GADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33765A1816200B00E1CF04 /* GADAppDelegate.m */; };
 		0A33765E1816200B00E1CF04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A33765C1816200B00E1CF04 /* Main.storyboard */; };
-		0A3376611816200B00E1CF04 /* GADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3376601816200B00E1CF04 /* GADViewController.m */; };
 		0A3376631816200B00E1CF04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3376621816200B00E1CF04 /* Images.xcassets */; };
 		0A33766A1816200C00E1CF04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3376691816200C00E1CF04 /* XCTest.framework */; };
 		0A33766B1816200C00E1CF04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A33764A1816200B00E1CF04 /* Foundation.framework */; };
 		0A33766C1816200C00E1CF04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A33764E1816200B00E1CF04 /* UIKit.framework */; };
 		0A3376741816200C00E1CF04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A3376721816200C00E1CF04 /* InfoPlist.strings */; };
 		0A3376761816200C00E1CF04 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3376751816200C00E1CF04 /* UITableViewController_Challenge_SolutionTests.m */; };
+		0A337681181621D400E1CF04 /* GADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A337680181621D400E1CF04 /* GADViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		0A3376591816200B00E1CF04 /* GADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADAppDelegate.h; sourceTree = "<group>"; };
 		0A33765A1816200B00E1CF04 /* GADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GADAppDelegate.m; sourceTree = "<group>"; };
 		0A33765D1816200B00E1CF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0A33765F1816200B00E1CF04 /* GADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADViewController.h; sourceTree = "<group>"; };
-		0A3376601816200B00E1CF04 /* GADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GADViewController.m; sourceTree = "<group>"; };
 		0A3376621816200B00E1CF04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0A3376681816200C00E1CF04 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3376691816200C00E1CF04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0A3376711816200C00E1CF04 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		0A3376731816200C00E1CF04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A3376751816200C00E1CF04 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		0A33767F181621D400E1CF04 /* GADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADViewController.h; path = ../GADViewController.h; sourceTree = "<group>"; };
+		0A337680181621D400E1CF04 /* GADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GADViewController.m; path = ../GADViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				0A3376591816200B00E1CF04 /* GADAppDelegate.h */,
 				0A33765A1816200B00E1CF04 /* GADAppDelegate.m */,
 				0A33765C1816200B00E1CF04 /* Main.storyboard */,
-				0A33765F1816200B00E1CF04 /* GADViewController.h */,
-				0A3376601816200B00E1CF04 /* GADViewController.m */,
+				0A33767F181621D400E1CF04 /* GADViewController.h */,
+				0A337680181621D400E1CF04 /* GADViewController.m */,
 				0A3376621816200B00E1CF04 /* Images.xcassets */,
 				0A3376511816200B00E1CF04 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A3376571816200B00E1CF04 /* main.m in Sources */,
-				0A3376611816200B00E1CF04 /* GADViewController.m in Sources */,
+				0A337681181621D400E1CF04 /* GADViewController.m in Sources */,
 				0A33765B1816200B00E1CF04 /* GADAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
